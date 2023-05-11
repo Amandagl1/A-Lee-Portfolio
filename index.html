@@ -1,14 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Amanda Lee's Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
+
 <body>
-    <!--<div ></div>-->
-    <img class="background" src="./assets/images/Office Cafe.jpeg" alt="Office Cafe">
+  <header>
+    <h1>Amanda Lee</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact Me</a>
+      <!-- Link to personal resume -->
+      <a href="https://docs.google.com/document/d/1MS3umXj2OSwKzHVILahPoJjI2ws-YhsZKSAte7EkPo8/edit?usp=sharing">Resume</a>
+    </nav>
+  </header>
+
+  <section class="hero-banner">
+    <div>
+      <h2>Relate. Create. Innovate.</h2>
+    </div>
+  </section>
+
+  <main class="page-wrapper">
+    <!-- about me -->
+    <section class="page-section" id="about">
+      <h2>About Me</h2>
+      <div>
+        <p>
+          Hi! My name is Amanda and I am a full-stack web developer.
+          I grew up on the small yet beautiful island of Hawaii and graduated with a bachelor's in digital film. 
+          <em>However,</em> up until recently, I craved to pursue a different career path. 
+          After moving to Seattle to find new opportunity and learn independence, I discovered a passion for the world of tech. 
+          From there, I had decided to enroll in a coding bootcamp at Southern Methodist University and earned a certificate in Full-Stack Web Development.
+          This webpage is a collection of my accomplishments and collabrations that I hope to share with the world! &#10084
+        </p>
+        <p>
+          
+        </p>
+      </div>
+    </section>
+
+    <!-- Portfolio container -->
+    <section class="page-section" id="work">
+      <h2>Work</h2>
+      <div class="flex-container">
+
+        <!-- Project 1 -->
+        <a href="https://1jessep.github.io/moviesthatmoveproject/" class="flex-item movies-that-move">
+          <div>
+            <h3>Movies That Move</h3>
+            <span>HTML/CSS/Javascript</span>
+          </div>
+        </a>
+        
+        <!-- Project 2 -->
+        <a href="https://momentum100.herokuapp.com/" class="flex-item momentum">
+          <div>
+            <h3>Momentum</h3>
+            <span>Express/Node/MVC Paradigm</span>
+          </div>
+        </a>
+
+        <!-- Project 3 -->
+        <a href="https://mojave-store.herokuapp.com/" class="flex-item mojave">
+          <div>
+            <h3>Mojave</h3>
+            <span>MERN Stack/React</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="page-section contact" id="contact">
+      <h2>Contact Me</h2>
+      <div>
+        <address>
+          <a href="mailto:leeandama87@gmail.com">leeandama87@gmail.com</a>
+          <a href="https://github.com/Amandagl1">GitHub</a>
+        </address>
+      </div>
+    </section>
+  </main>
 </body>
+
 </html>
