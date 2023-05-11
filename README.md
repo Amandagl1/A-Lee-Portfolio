@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # My-Portfolio
 
 ## About me
@@ -14,3 +15,6 @@ Github: Amandagl1
 Email: leeandama87@gmail.com
 
 
+=======
+# A-Lee-Portfolio
+>>>>>>> 25648fab824dd0d55dbe6d369ec781589967885e
