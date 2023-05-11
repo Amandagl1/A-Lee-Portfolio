@@ -7,8 +7,8 @@
   :root {
     --first: rgb(88, 68, 70);
     --second: rgb(248, 192, 170);
-    --third: rgb(55, 35, 52);
-    --dark: rgb(226,95,111);
+    --third: rgb(39, 23, 37);
+    --dark: rgb(83, 50, 54);
     --light: rgb(251, 223, 186);
   }
   
@@ -29,7 +29,6 @@
     flex-wrap: wrap;
     align-items: center;
     background-color: var(--third);
-    box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
   }
   
   header h1 {
@@ -41,7 +40,7 @@
   }
 
   h2 {
-    text-shadow: 1px 1px 2px rgb(255, 245, 168), 0 0 1em rgb(63, 22, 92), 0 0 0.2em whitesmoke;;
+    text-shadow: 1px 1px 2px var(--dark), 0 0 1em whitesmoke;
   }
   
   nav {
@@ -210,15 +209,18 @@
   
   /* portfolio project images */
   .movies-that-move {
-    background-image: ;
+    background-image: url("/Users/amanda/Coding/A-Lee-Portfolio/assets/images/moviesthatmove.png");
+    background-size: cover;
   }
   
   .momentum {
-    background-image: ;
+    background-image: url("/Users/amanda/Coding/A-Lee-Portfolio/assets/images/momentum.png");
+    background-size: cover;
   }
   
   .mojave {
-    background-image: ;
+    background-image: url("/Users/amanda/Coding/A-Lee-Portfolio/assets/images/mojave.png");
+    background-size: cover;
   }
   
 
