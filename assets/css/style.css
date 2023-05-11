@@ -5,11 +5,11 @@
   
   /* brand color palette */
   :root {
-    --first: rgb(135,102,105);
-    --second: rgb(246,183,158);
-    --third: rgb(77,56,73);
+    --first: rgb(88, 68, 70);
+    --second: rgb(248, 192, 170);
+    --third: rgb(55, 35, 52);
     --dark: rgb(226,95,111);
-    --light: rgb(250,213,166);
+    --light: rgb(251, 223, 186);
   }
   
   body {
@@ -78,7 +78,7 @@
   
   .hero-banner {
     background: rgb(68, 88, 120);
-    background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--second) 0%, var(--first) 100%);
+    background-image: url("/Users/amanda/Coding/A-Lee-Portfolio/assets/images/sunset.jpeg"), linear-gradient(180deg, var(--second) 0%, var(--first) 100%);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
