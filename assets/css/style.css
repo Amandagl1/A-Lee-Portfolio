@@ -224,7 +224,7 @@
   }
   
 
-  /* end portfolio project images */
+  /* Screen size changes with @media screen */
   
   @media screen and (max-width: 980px) {
     header {
