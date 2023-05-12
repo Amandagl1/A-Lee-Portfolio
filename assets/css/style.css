@@ -209,17 +209,17 @@
   
   /* portfolio project images */
   .movies-that-move {
-    background-image: url("/Users/amanda/Coding/A-Lee-Portfolio/assets/images/moviesthatmove.png");
+    background-image: url("assets/images/moviesthatmove.png");
     background-size: cover;
   }
   
   .momentum {
-    background-image: url("/Users/amanda/Coding/A-Lee-Portfolio/assets/images/momentum.png");
+    background-image: url("assets/images/momentum.png");
     background-size: cover;
   }
   
   .mojave {
-    background-image: url("/Users/amanda/Coding/A-Lee-Portfolio/assets/images/mojave.png");
+    background-image: url("assets/images/mojave.png");
     background-size: cover;
   }
   
