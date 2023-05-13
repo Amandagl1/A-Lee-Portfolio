@@ -9,8 +9,8 @@ As a new full-stack web developer and as an alumni of SMU coding bootcamp, I am 
 I created this portfolio to showcase the skills that I have learned throughout my time at SMU bootcamp, and the accomplishments that have resulted from collaborations. What these projects reflect is teamwork, perserverance, communication, and overall hardwork. 
 
 ## Webpage
-<img src="" width="700px" alt="Webpage screenshot" />
+<img src="assets/images/webpage-screenshot.png" width="500px" alt="Webpage screenshot" />
 
-### Questions? Contact me here.  
+### Questions? Contact me here.
 Github: Amandagl1  
 Email: leeandama87@gmail.com
