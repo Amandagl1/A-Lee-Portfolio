@@ -77,7 +77,7 @@
   
   .hero-banner {
     background: rgb(68, 88, 120);
-    background-image: url("/Users/amanda/Coding/A-Lee-Portfolio/assets/images/sunset.jpeg"), linear-gradient(180deg, var(--second) 0%, var(--first) 100%);
+    background-image: url("../images/sunset.jpeg"), linear-gradient(180deg, var(--second) 0%, var(--first) 100%);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
